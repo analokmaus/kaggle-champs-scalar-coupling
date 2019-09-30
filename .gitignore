@@ -1,0 +1,37 @@
+# General
+.DS_Store
+*.swap
+*.sh.o*
+batch_train.sh
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints/
+
+# C extensions
+*.so
+
+# pyenv
+.python-version
+
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# PyCharm
+.idea
+
+# Project
+data/
+results/
+qsub/
+*.sh
+*.sh.o.*
